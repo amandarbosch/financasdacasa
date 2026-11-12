@@ -1,9 +1,3 @@
-# Finanças da Casa
+# Finanças da Casa V2
 
-PWA de controle financeiro familiar.
-
-## Privacidade
-Esta primeira versão salva os dados somente no navegador do aparelho usando localStorage. Nenhum dado financeiro foi incluído nos arquivos públicos do repositório.
-
-## Publicação
-Ative GitHub Pages em Settings > Pages > Deploy from a branch > main > /(root).
+PWA local com temas Rosé Elegante e Azul Executivo. Mantém os dados da V1 no mesmo navegador.
