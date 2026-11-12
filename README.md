@@ -1,3 +1,3 @@
-# Finanças da Casa V2
+# Finanças da Casa V3
 
-PWA local com temas Rosé Elegante e Azul Executivo. Mantém os dados da V1 no mesmo navegador.
+PWA local com dashboard visual, gráficos, navegação inferior, cadastro rápido e dois temas. Preserva os dados locais da V1/V2 no mesmo navegador.
