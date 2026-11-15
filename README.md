@@ -1,9 +1,9 @@
-# Finanças da Casa V4 corrigida
+# Finanças da Casa V4.1
 
-PWA com login individual, temas pessoais e dados manuais compartilhados pelo Supabase.
+Blocos 0, 1 e 2 implementados:
+- backup JSON e estado de conexão;
+- detalhes, edição, duplicação, exclusão e desfazer para transações;
+- autoria e datas;
+- feedback de salvamento e sincronização Realtime.
 
-## Banco esperado
-Usa as tabelas já criadas: transactions, cards, reimbursements, school_fund e reserves.
-
-## Segurança
-Somente a chave publicável está no frontend. Nunca adicione secret key ou service_role.
+Execute `migracao-v4.1.sql` antes de usar edição e exclusão.
