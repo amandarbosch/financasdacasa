@@ -1,9 +1,14 @@
-# Finanças da Casa V4.1
+# Finanças da Casa V4.2
 
-Blocos 0, 1 e 2 implementados:
-- backup JSON e estado de conexão;
-- detalhes, edição, duplicação, exclusão e desfazer para transações;
-- autoria e datas;
-- feedback de salvamento e sincronização Realtime.
+Blocos 3, 4, 5 e 6 implementados sobre a V4.1.
 
-Execute `migracao-v4.1.sql` antes de usar edição e exclusão.
+## Novidades
+- receitas e despesas recorrentes mensais, com pausa e data final opcional;
+- cartões com titular, fechamento, vencimento e limite;
+- compras parceladas distribuídas automaticamente nos meses;
+- reembolsos com valor pago, esperado, recebido, datas, status e custo líquido;
+- orçamento mensal por categoria, com alertas em 80% e ao ultrapassar.
+
+## Instalação
+1. Execute `MIGRACAO-V4.2-COPIAR.txt` no SQL Editor do Supabase.
+2. Publique os arquivos do app no GitHub. Não publique os arquivos de migração.
